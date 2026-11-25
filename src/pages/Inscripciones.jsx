@@ -13,7 +13,7 @@ export default function Inscripciones() {
     <div className="inner-page">
       <section className="page-hero enroll-hero">
         <div className="container page-hero-inner">
-          <Eyebrow>Inscripciones · Escuela N° 1326</Eyebrow>
+          <Eyebrow>Inscripciones · Escuela Mitre 120</Eyebrow>
           <h1>El próximo paso<br /><span>lo damos juntos.</span></h1>
           <p>Completá el formulario para iniciar una consulta de inscripción. La escuela te responderá por WhatsApp con la información disponible.</p>
         </div>
@@ -37,11 +37,11 @@ export default function Inscripciones() {
               <Eyebrow>Primer contacto</Eyebrow>
               <h2 className="page-section-title">Queremos conocerte.</h2>
               <p className="body-copy">Este formulario inicia una consulta, no confirma una vacante. La escuela podrá contarte los requisitos y la disponibilidad para el grado solicitado.</p>
-              <a className="contact-detail" href="https://maps.google.com/?q=Sol%C3%ADs+191%2C+Rosario%2C+Santa+Fe" target="_blank" rel="noreferrer">
-                <span aria-hidden="true">⌖</span><span><strong>Escuela N° 1326</strong><br />Solís 191 · Rosario, Santa Fe</span>
+              <a className="contact-detail" href="https://maps.google.com/?q=Mitre+120%2C+Rosario%2C+Santa+Fe" target="_blank" rel="noreferrer">
+                <span aria-hidden="true">⌖</span><span><strong>Escuela Mitre 120</strong><br />Mitre 120 · Rosario, Santa Fe</span>
               </a>
-              <a className="contact-detail" href="https://wa.me/5493416062557" target="_blank" rel="noreferrer">
-                <span aria-hidden="true">◔</span><span><strong>WhatsApp</strong><br />+54 9 341 606-2557</span>
+              <a className="contact-detail" href="https://wa.me/5491100000000" target="_blank" rel="noreferrer">
+                <span aria-hidden="true">◔</span><span><strong>WhatsApp</strong><br />+54 9 11 0000-0000 (ficticio)</span>
               </a>
             </div>
             <div className="col-lg-7 offset-lg-1"><RegistrationForm /></div>

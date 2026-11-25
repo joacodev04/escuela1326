@@ -6,9 +6,9 @@ export default function Contacto() {
     <div className="inner-page">
       <section className="page-hero contact-hero">
         <div className="container page-hero-inner">
-          <Eyebrow>Contacto · Escuela N° 1326</Eyebrow>
+          <Eyebrow>Contacto · Escuela Mitre 120</Eyebrow>
           <h1>Hablemos.<br /><span>Estamos acá.</span></h1>
-          <p>Para consultas generales o para iniciar una inscripción, podés comunicarte con la Escuela Maestro Sergio del Coro.</p>
+          <p>Para consultas generales o para iniciar una inscripción, podés comunicarte con la Escuela Mitre 120.</p>
         </div>
       </section>
       <section className="section-space">
@@ -19,8 +19,8 @@ export default function Contacto() {
                 <span className="contact-icon" aria-hidden="true">⌖</span>
                 <span className="project-category">VISITANOS</span>
                 <h2>Estamos en Rosario.</h2>
-                <p>Solís 191<br />Rosario, Santa Fe</p>
-                <a className="text-link" href="https://maps.google.com/?q=Sol%C3%ADs+191%2C+Rosario%2C+Santa+Fe" target="_blank" rel="noreferrer">Ver ubicación <span aria-hidden="true">↗</span></a>
+                <p>Mitre 120<br />Rosario, Santa Fe</p>
+                <a className="text-link" href="https://maps.google.com/?q=Mitre+120%2C+Rosario%2C+Santa+Fe" target="_blank" rel="noreferrer">Ver ubicación <span aria-hidden="true">↗</span></a>
               </article>
             </div>
             <div className="col-md-6 col-lg-4">
@@ -28,8 +28,8 @@ export default function Contacto() {
                 <span className="contact-icon" aria-hidden="true">◔</span>
                 <span className="project-category">ESCRIBINOS</span>
                 <h2>Conversemos por WhatsApp.</h2>
-                <p>Teléfono informado en el perfil institucional: 4727611.</p>
-                <a className="text-link" href="https://wa.me/5493416062557" target="_blank" rel="noreferrer">+54 9 341 606-2557 <span aria-hidden="true">↗</span></a>
+                <p>Número ficticio para demostración.</p>
+                <a className="text-link" href="https://wa.me/5491100000000" target="_blank" rel="noreferrer">+54 9 11 0000-0000 (ficticio) <span aria-hidden="true">↗</span></a>
               </article>
             </div>
             <div className="col-md-6 col-lg-4">

@@ -50,18 +50,18 @@ export default function Inicio() {
       <section className="hero-section">
         <div className="container hero-grid">
           <div className="hero-copy">
-            <Eyebrow>Rosario · Escuela pública · N° 1326</Eyebrow>
+            <Eyebrow>Rosario · Escuela pública · Mitre 120</Eyebrow>
             <h1>Aprender,<br /><span>compartir</span> y crecer.</h1>
-            <p>Somos la Escuela Maestro Sergio del Coro. Un lugar para encontrarnos, hacer preguntas y descubrir todo lo que podemos aprender juntos.</p>
+            <p>Somos la Escuela Mitre 120. Un lugar para encontrarnos, hacer preguntas y descubrir todo lo que podemos aprender juntos.</p>
             <div className="hero-actions">
               <Link className="btn btn-primary btn-lg" to="/nosotros">Conocé la escuela <span aria-hidden="true">↗</span></Link>
               <Link className="text-link" to="/inscripciones">Inscripciones <span aria-hidden="true">→</span></Link>
             </div>
-            <div className="hero-location"><span aria-hidden="true">⌖</span> Solís 191 · Rosario, Santa Fe</div>
+            <div className="hero-location"><span aria-hidden="true">⌖</span> Mitre 120 · Rosario, Santa Fe</div>
           </div>
           <div className="hero-visual">
             <div className="hero-image" role="img" aria-label="Alumnos compartiendo actividades en la escuela" />
-            <div className="hero-sticker"><span>ESCUELA</span><strong>1326</strong><span>APRENDER JUNTOS</span></div>
+            <div className="hero-sticker"><span>ESCUELA</span><strong>120</strong><span>APRENDER JUNTOS</span></div>
             <span className="hero-doodle" aria-hidden="true">✳</span>
             <span className="hero-caption">Una escuela<br />hecha de encuentros</span>
           </div>
@@ -148,7 +148,7 @@ export default function Inicio() {
               <article className="col-md-4" key={project.title}>
                 <a className={`instagram-card instagram-card-${index + 1}`} href="https://www.instagram.com/escuela1326/" target="_blank" rel="noreferrer">
                   <div className="instagram-image" style={{ backgroundImage: `url("${project.image}")` }} role="img" aria-label={project.alt}>
-                    <span className="instagram-tile-mark" aria-hidden="true">1326</span>
+                    <span className="instagram-tile-mark" aria-hidden="true">120</span>
                     <span className="instagram-open" aria-hidden="true">↗</span>
                   </div>
                   <div className="instagram-card-copy">
@@ -167,7 +167,7 @@ export default function Inicio() {
       <section className="visit-section">
         <div className="container visit-inner">
           <div>
-            <Eyebrow light>Escuela Maestro Sergio del Coro N° 1326</Eyebrow>
+            <Eyebrow light>Escuela Mitre 120</Eyebrow>
             <h2>Nos encontramos<br />en la escuela.</h2>
           </div>
           <div className="visit-action">

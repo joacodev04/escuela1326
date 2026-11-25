@@ -15,11 +15,11 @@ export default function Header() {
     <>
       <div className="school-strip">
         <div className="container school-strip-inner">
-          <a href="https://maps.google.com/?q=Sol%C3%ADs+191%2C+Rosario%2C+Santa+Fe" target="_blank" rel="noreferrer">
-            <span aria-hidden="true">⌖</span> Solís 191 · Rosario, Santa Fe
+          <a href="https://maps.google.com/?q=Mitre+120%2C+Rosario%2C+Santa+Fe" target="_blank" rel="noreferrer">
+            <span aria-hidden="true">⌖</span> Mitre 120 · Rosario, Santa Fe
           </a>
-          <a href="https://wa.me/5493416062557" target="_blank" rel="noreferrer">
-            <span aria-hidden="true">◔</span> WhatsApp <strong>+54 9 341 606-2557</strong>
+          <a href="https://wa.me/5491100000000" target="_blank" rel="noreferrer">
+            <span aria-hidden="true">◔</span> WhatsApp <strong>+54 9 11 0000-0000 (ficticio)</strong>
           </a>
         </div>
       </div>

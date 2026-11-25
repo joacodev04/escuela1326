@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const WHATSAPP_NUMBER = '5493416062557'
+const WHATSAPP_NUMBER = '5491100000000'
 
 export default function RegistrationForm() {
   const [whatsappUrl, setWhatsappUrl] = useState('')
@@ -9,7 +9,7 @@ export default function RegistrationForm() {
     event.preventDefault()
     const values = new FormData(event.currentTarget)
     const message = [
-      'Hola, quiero consultar por una inscripción en la Escuela Maestro Sergio del Coro N° 1326.',
+      'Hola, quiero consultar por una inscripción en la Escuela Mitre 120.',
       '',
       `Nombre del adulto responsable: ${values.get('adultName')}`,
       `Teléfono de contacto: ${values.get('phone')}`,

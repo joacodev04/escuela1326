@@ -27,9 +27,9 @@ export default function Nosotros() {
     <div className="inner-page">
       <section className="page-hero">
         <div className="container page-hero-inner">
-          <Eyebrow>Escuela N° 1326 · Rosario</Eyebrow>
+          <Eyebrow>Escuela Mitre 120 · Rosario</Eyebrow>
           <h1>Una escuela que<br /><span>se hace en comunidad.</span></h1>
-          <p>Somos la Escuela Maestro Sergio del Coro. Nos encontramos cada día para aprender, compartir y crecer junto a nuestros estudiantes y sus familias.</p>
+          <p>Somos la Escuela Mitre 120. Nos encontramos cada día para aprender, compartir y crecer junto a nuestros estudiantes y sus familias.</p>
         </div>
       </section>
       <section className="section-space">
