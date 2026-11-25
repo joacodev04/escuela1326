@@ -1,30 +1,5 @@
 import { Link } from 'react-router-dom'
 import Eyebrow from '../components/Eyebrow.jsx'
-import SectionTitle from '../components/SectionTitle.jsx'
-
-const projects = [
-  {
-    category: 'BIBLIOTECA · LECTURA',
-    title: 'Historias que nos encuentran',
-    text: 'Lecturas compartidas y nuevos mundos por descubrir en la biblioteca de la escuela.',
-    image: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=800&q=85',
-    alt: 'Libros en los estantes de una biblioteca',
-  },
-  {
-    category: 'ENCUENTROS · COMUNIDAD',
-    title: 'Aprender también es salir',
-    text: 'La escuela se vive en grupo: compartimos actividades, paseos y aprendizajes.',
-    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=85',
-    alt: 'Estudiantes participan de una actividad en la escuela',
-  },
-  {
-    category: 'FAMILIAS · TALLERES',
-    title: 'Crecer en red',
-    text: 'Espacios de encuentro para acompañar a las familias y conversar sobre lo que nos importa.',
-    image: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=85',
-    alt: 'Familia compartiendo una actividad',
-  },
-]
 
 const communityHighlights = [
   {
@@ -68,7 +43,6 @@ export default function Inicio() {
         </div>
         <div className="container hero-bottom">
           <span>ESCUCHAR · EXPLORAR · APRENDER</span>
-          <a href="https://www.instagram.com/escuela1326/" target="_blank" rel="noreferrer">@escuela1326 <span aria-hidden="true">↗</span></a>
         </div>
       </section>
 
@@ -129,38 +103,6 @@ export default function Inicio() {
             <p>Una escuela se construye cada día, con pequeños descubrimientos y grandes encuentros.</p>
             <Link className="text-link" to="/nosotros">Conocé nuestra propuesta <span aria-hidden="true">→</span></Link>
           </div>
-        </div>
-      </section>
-
-      <section className="instagram-section section-space">
-        <div className="container">
-          <div className="instagram-heading">
-            <div>
-              <Eyebrow>La escuela en imágenes</Eyebrow>
-              <h2>Un poquito de lo que<br /><span>compartimos.</span></h2>
-            </div>
-            <a className="instagram-link" href="https://www.instagram.com/escuela1326/" target="_blank" rel="noreferrer">
-              <span className="instagram-glyph" aria-hidden="true">◎</span> Seguinos en Instagram <span aria-hidden="true">↗</span>
-            </a>
-          </div>
-          <div className="row g-3 g-lg-4 instagram-grid">
-            {projects.map((project, index) => (
-              <article className="col-md-4" key={project.title}>
-                <a className={`instagram-card instagram-card-${index + 1}`} href="https://www.instagram.com/escuela1326/" target="_blank" rel="noreferrer">
-                  <div className="instagram-image" style={{ backgroundImage: `url("${project.image}")` }} role="img" aria-label={project.alt}>
-                    <span className="instagram-tile-mark" aria-hidden="true">120</span>
-                    <span className="instagram-open" aria-hidden="true">↗</span>
-                  </div>
-                  <div className="instagram-card-copy">
-                    <span className="project-category">{project.category}</span>
-                    <h3>{project.title}</h3>
-                    <p>{project.text}</p>
-                  </div>
-                </a>
-              </article>
-            ))}
-          </div>
-          <p className="instagram-note">Inspirado en las propuestas que comparte la escuela: lecturas, actividades y encuentros con las familias.</p>
         </div>
       </section>
 

@@ -21,9 +21,6 @@ export default function Footer() {
           <div className="col-6 col-lg-4">
             <h2 className="footer-title">Encontranos</h2>
             <p className="footer-contact">Mitre 120<br />Rosario, Santa Fe</p>
-            <a className="footer-contact-link" href="https://www.instagram.com/escuela1326/" target="_blank" rel="noreferrer">
-              Instagram @escuela1326 <span aria-hidden="true">↗</span>
-            </a>
           </div>
         </div>
         <div className="footer-bottom">
